@@ -1,0 +1,28 @@
+th, td{
+        border: 1px solid black;
+        width: 22%;
+        }
+table{
+      border: 1px solid black;
+      width: 50%;
+      height: 30%;
+      margin-left: 25%;
+      margin-left: 25%;
+      border-collapse: collapse;
+        }
+th{
+     background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+td{
+    background-color: aquamarine;
+    text-align: center;
+    }
+
+.titulo{
+    font-style: italic;
+}
+
+#dis{
+    color: red;
+}
