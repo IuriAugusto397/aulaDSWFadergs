@@ -1,3 +1,8 @@
+form{
+    width: 50%;
+    margin-left: 25%;
+    margin-left: 25%;
+}
 th, td{
         border: 1px solid black;
         width: 22%;
@@ -21,6 +26,12 @@ td{
 
 .titulo{
     font-style: italic;
+}
+
+.tituloPadrao{
+    width: 50%;
+    margin-left: 25%;
+    margin-left: 25%;
 }
 
 #dis{

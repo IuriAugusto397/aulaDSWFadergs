@@ -8,6 +8,64 @@
     </head>
 
     <body>
+        <h3 class="tituloPadrao">Cadastro de alunos</h3>
+        <form action="" method="GET">
+            <fieldset>
+                <legend>Dados Pessoais</legend></br>
+                <label>Aluno:</label> <input name="txAluno" type="text" placeholder="Aluno" required ></input> <br/>
+                <label>Telefone:</label><input type="tel" placeholder="Telefone"></input> <br/>
+                <label>Email:</label><input type="email" placeholder="Email" required ></input><br/>
+                <label>Estado Cívil</label></br>
+                <label>Solteiro(a)</label><input type="radio" name="estadoCivil" ></br>
+                <label>Casado(a)</label><input type="radio" name="estadoCivil"></br>
+                <label>Viuvo(a)</label><input type="radio" name="estadoCivil"></br>
+            </fieldset>    
+            <fieldset>
+                <legend>Dados Academicos</legend>
+                <label>Disciplina:</label><input type="text" placeholder="Disciplina"></input> <br/>
+                <label>Semestre</label><select id="semestre" name="semestre">
+                    <optgroup label="Ano 1"></optgroup>
+                    <option>1</option>
+                    <option>2</option>
+                    <optgroup label="Ano 2"></optgroup>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select></br>
+                <label>Data de cadastro:</label><input type="date" placeholder="data"></input><br/>
+                <label>Data de cadastro com hora:</label><input type="datetime-local" placeholder="data"></input><br/>
+                <label>Numero:</label><input type="number" placeholder="number"></input><br/>
+            </fieldset>  
+
+            <fieldset>
+                <legend>Digite seu feedback</legend><br/>
+                <label>Sugestões?</label><textarea name="Sugestões?" rows="7" cols="9" placeholder="Sugestões?"></textarea> </br>
+                <label>Quer Receber e-mails?</label><input type="checkbox" name="Test" ></br>
+            </fieldset>
+           
+           
+           <button type="submit" >Enviar</button>
+           <button type="reset" >Limpar</button>
+
+           <!-- COMENTARIO 
+            Usar <select multiple> </select> para seleções de multiplas possibilidades.
+
+            Criar página com:
+            Nome
+            Sobre nome
+            data de nascimento
+            e-mail
+            rede social
+            Estado cívil
+            nome do pet
+            Raça do pet 
+
+            E criar uma tabela com cada uma linha para cada valor 
+
+        -->
+        </form>
+        
         <table>
             <tr>
                 <th class="titulo">Aluno</th>
