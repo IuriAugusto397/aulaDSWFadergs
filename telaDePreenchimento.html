@@ -6,8 +6,12 @@
     <body>
         <h3>Tela de preenchimento de informações no agendamento</h3></br>
             <div class="container">
-                <form>
-                    <label>Horarios disponíveis: </label> 
+                <label>CPF do tutor: </label> 
+                <input class="form-control" name="txCPF" type="number" placeholder="CPF"></input> <br/>
+                <button class="btn btn-primary" type="submit">Pesquisar</button></br>
+                <form >
+                    <p style="background-color: rgb(165, 133, 224);">
+                    <label>Horario préviamente cadastrado: </label> 
                     <select class="form-select" id="hora" name="hora">
                     <option>13h</option>
                     <option>15h</option>
@@ -15,9 +19,9 @@
                     <option>17h</option>
                     </select> </br>
                     <button class="btn btn-primary" type="submit">Agendar</button></br>
-                    <label>Desmarcar Horario: </label> </br>
-                    <input class="form-control" type="datetime-local"></br>
-                    <button class="btn btn-primary" type="submit">Desmarcar</button>
+                    <label>Senha para agendamento:</label> <input class="form-control" name="txNome" type="password" placeholder="Senha"></input> <br/>
+                    <button class="btn btn-primary" type="submit">Agendar</button></br>
+                    </p>
                 </form>  
                
     
@@ -25,3 +29,4 @@
             
     </body>
 </html>
+

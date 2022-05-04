@@ -6,8 +6,9 @@
     <body>
         <div class="container"> 
             <h3>Cadastro de Cidade</h3></br>
-            <form>
-                <label>Nome:</label> <input class="form-control" name="txNome" type="text" placeholder="Nome"></input> <br/>
+            <form action="cadastroEstado.html">
+                <p style="background-color: rgb(165, 133, 224);">
+                    <label>Nome:</label> <input class="form-control" name="txNome" type="text" placeholder="Nome"></input> <br/>
                 <label>Estado: </label> 
                     <select class="form-select" id="Estado" name="Estado">
                     <option>RS</option>
@@ -28,24 +29,28 @@
                 
                 <button class="btn btn-primary" type="submit">Cadastrar</button>
                 <button class="btn" type="reset">Limpar</button>
+                </p>
             </form>
         
         
             <table class="table table-striped">
-             <thead>
-                <tr>
-                    <th>Nome</th>
-                    <th>Estado</th>
-                    <th>Pais</th>
-                    <th>CEP</th>
-                </tr>
-            </thead>
-                <tr>
-                    <td>Joao</td>
-                    <td>RS</td>
-                    <td>BRAZIL</td>
-                    <td>91570-390</td>                    
-                </tr>
+                <p style="background-color: rgb(165, 133, 224);">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Estado</th>
+                            <th>Pais</th>
+                            <th>CEP</th>
+                        </tr>
+                    </thead>
+                        <tr>
+                            <td>Joao</td>
+                            <td>RS</td>
+                            <td>BRAZIL</td>
+                            <td>91570-390</td>                    
+                        </tr>
+                </p>
+             
             </table>
                 <button class="btn" type="submit">Alterar</button>
                 <button class="btn" type="submit">Remover</button>    
